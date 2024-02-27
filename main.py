@@ -4,11 +4,15 @@ import time
 
 def sorting():
     zoznam.sort()
+    print("Zoznam je zoradeny vzostupne:")
     print(zoznam)
+    print()
 
 def sorting_revers():
     zoznam.sort(reverse=True)
+    print("Zoznam je zoradeny zoztupne:")
     print(zoznam)
+    print()
 
 
 zoznam = [11,2,45,87,29,5,2,78,45,103,4451,12,78899]
@@ -25,4 +29,4 @@ thread2.start()
 thread1.join()
 thread2.join()
 
-duration=time.time() -start_time
+
