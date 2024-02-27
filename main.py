@@ -20,8 +20,8 @@ print(f"Zoznam cisel{zoznam}")
 
 start_time=time.time()
 
-thread1=threading.Thread(target=sorting(),args=("Vlakno1 bezi",))
-thread2=threading.Thread(target= sorting_revers(),args=("vlakno 2 bezi",))
+thread1=threading.Thread(target=sorting(),args=())
+thread2=threading.Thread(target= sorting_revers(),args=())
 
 thread1.start()
 thread2.start()
